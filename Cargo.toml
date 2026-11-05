@@ -1,0 +1,10 @@
+[package]
+name = "horizon-mod-shield-statuses"
+version = "1.0.0"
+edition = "2024"
+license = "MIT"
+publish = false
+description = "Tints shields by their disabled state with optional cooldown interpolation: a Horizon port of Walksy's Shield Statuses."
+
+[lib]
+path = "mixins/shield_statuses/runtime.rs"
